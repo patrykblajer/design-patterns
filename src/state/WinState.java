@@ -1,6 +1,6 @@
-package state.state;
+package state;
 
-public class WinState implements State {
+class WinState implements State {
 
     public void insertTheCoin(GameMachine context) {
         System.out.println("Przed ponowną grą zabierz swoją nagrodę.");

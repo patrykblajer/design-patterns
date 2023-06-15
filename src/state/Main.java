@@ -1,20 +1,15 @@
 package state;
-
-import co.devfoundry.state.SlotMachine;
-
-public class Main {
+class Main {
 
     public static void main(String[] args) {
 
-        SlotMachine slotMachine = new SlotMachine();
+        GameMachine gameMachine = new GameMachine();
 
-        slotMachine.insertTheCoin();
-        slotMachine.currentState();
-        slotMachine.pushTheLever();
-        slotMachine.currentState();
-        slotMachine.collectTheWinnings();
-        slotMachine.currentState();
-
+        gameMachine.insertTheCoin();
+        gameMachine.currentState();
+        gameMachine.pushTheLever();
+        gameMachine.currentState();
+        gameMachine.collectTheWinnings();
+        gameMachine.currentState();
     }
-
 }

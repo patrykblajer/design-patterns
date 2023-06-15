@@ -1,6 +1,6 @@
-package state.state;
+package state;
 
-public interface State {
+interface State {
     void insertTheCoin(GameMachine context);
     void pushTheLever(GameMachine context);
     void collectTheWinnings(GameMachine context);

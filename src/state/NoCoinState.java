@@ -1,6 +1,6 @@
-package state.state;
+package state;
 
-public class NoCoinState implements State {
+class NoCoinState implements State {
 
     public void insertTheCoin(GameMachine context) {
         System.out.println("Wrzucono monetę.");

@@ -1,8 +1,8 @@
-package state.state;
+package state;
 
 import java.util.Random;
 
-public class CoinInsertedState implements State {
+class CoinInsertedState implements State {
     
     static final private Random random  = new Random();
     

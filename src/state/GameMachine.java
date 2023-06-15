@@ -1,6 +1,6 @@
-package state.state;
+package state;
 
-public class GameMachine {
+class GameMachine {
 
     State state;
 
